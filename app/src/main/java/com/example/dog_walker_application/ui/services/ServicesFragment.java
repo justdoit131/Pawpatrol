@@ -24,8 +24,7 @@ public class ServicesFragment extends Fragment {
         binding = FragmentServicesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textServices;
-        servicesViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
         return root;
     }
 
