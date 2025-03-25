@@ -10,21 +10,21 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.dog_walker_application.databinding.FragmentSlideshowBinding;
+import com.example.dog_walker_application.databinding.FragmentLoginBinding;
 
 public class loginFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+    private FragmentLoginBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         loginViewModel loginViewModel =
                 new ViewModelProvider(this).get(loginViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentLoginBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textSlideshow;
+        final TextView textView = binding.textLogin;
         loginViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
