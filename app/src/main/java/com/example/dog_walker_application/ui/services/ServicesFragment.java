@@ -1,4 +1,4 @@
-package com.example.dog_walker_application.ui.gallery;
+package com.example.dog_walker_application.ui.services;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.dog_walker_application.databinding.FragmentGalleryBinding;
+import com.example.dog_walker_application.databinding.FragmentServicesBinding;
 
-public class GalleryFragment extends Fragment {
+public class ServicesFragment extends Fragment {
 
-    private FragmentGalleryBinding binding;
+    private FragmentServicesBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        ServicesViewModel servicesViewModel =
+                new ViewModelProvider(this).get(ServicesViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentServicesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textServices;
+        servicesViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
