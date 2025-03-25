@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/bookingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Booking and Scheduling"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- How many dogs -->
+        <TextView
+            android:id="@+id/dogCountLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How many dogs?"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/dogCountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter number of dogs" />
+
+        <!-- How long -->
+        <TextView
+            android:id="@+id/durationLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How long is the walk (in minutes)?"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/durationEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter duration in minutes" />
+
+        <!-- Who is the walker -->
+        <TextView
+            android:id="@+id/walkerLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who is the walker?"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/walkerEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter walker's name" />
+
+        <!-- When -->
+        <TextView
+            android:id="@+id/dateTimeLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When do you want the walk?"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/dateTimeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter date and time" />
+
+        <!-- Book Now Button -->
+        <Button
+            android:id="@+id/bookNowButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Now"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

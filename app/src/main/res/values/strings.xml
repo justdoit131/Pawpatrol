@@ -10,4 +10,35 @@
     <string name="menu_home">Home</string>
     <string name="menu_services">Services</string>
     <string name="menu_login">Login/Register</string>
+
+    <!-- Terms content -->
+    <string name="terms_content">
+    By using our dog-walking services, you agree to the following terms and conditions:\n\n
+    1. Service Agreement: We will provide dog-walking services as requested, based on availability and in accordance with the scheduled time.\n\n
+    2. User Responsibilities: You are responsible for ensuring that your dog is healthy, vaccinated, and fit for walking. We are not liable for any injuries to your pet during the walking sessions.\n\n
+    3. Payment: Payments for services must be made before or upon completion of the scheduled walk. Prices are subject to change, and you will be notified in advance.\n\n
+    4. Cancellations: If you wish to cancel or reschedule a booking, please do so at least 24 hours in advance. Cancellations made within 24 hours of the scheduled time will incur a cancellation fee.\n\n
+    5. Liability: We are not liable for any damages or injuries caused during the service, including to your pet or any third parties.\n\n
+    6. Privacy: Your personal information will be used solely for the purpose of providing the requested services and will not be shared with any third parties without your consent.\n\n
+    7. Changes to Terms: We reserve the right to update these terms at any time. Changes will be communicated to you through the app.
+</string>
+
+    <!-- FAQs content -->
+    <string name="faqs_content">
+        Here you can find answers to common questions about our dog-walking services.\n\n
+        1. What is the service provided? \n
+        We offer professional dog-walking services for all types of dogs. We ensure the safety and well-being of your pet during each walk.\n\n
+        2. How do I book a walk for my dog? \n
+        You can book a walk using our mobile app or website. Simply select the date, time, and your preferred walker.\n\n
+        3. What if I need to cancel or reschedule a walk? \n
+        Cancellations can be made at least 24 hours in advance to avoid any fees. Rescheduling is also available.\n\n
+        4. How do I pay for the service? \n
+        Payment can be made online via credit card or through our app, prior to the scheduled walk.\n\n
+        5. Are your walkers experienced? \n
+        Yes, all of our walkers are experienced in handling dogs of all breeds and sizes, and are trained in pet safety.\n\n
+        6. Is there an age limit for dogs to be walked? \n
+        We accept dogs of all ages, but puppies and elderly dogs may have specific walking requirements.\n\n
+        If you have any more questions, feel free to contact us directly!
+    </string>
+
 </resources>

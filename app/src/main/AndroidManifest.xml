@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dog_Walker_Application"
+
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -23,6 +25,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ui.services.BookingActivity" />
+        <activity android:name=".ui.services.RatingsActivity" />
+        <activity android:name=".ui.services.TermsActivity" />
+        <activity android:name=".ui.services.FaqsActivity" />
     </application>
 
 </manifest>

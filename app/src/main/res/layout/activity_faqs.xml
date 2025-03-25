@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title: Frequently Asked Questions -->
+        <TextView
+            android:id="@+id/faqsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- FAQ Content -->
+        <TextView
+            android:id="@+id/faqsContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/faqs_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="8dp"
+            android:scrollHorizontally="false"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+</ScrollView>
