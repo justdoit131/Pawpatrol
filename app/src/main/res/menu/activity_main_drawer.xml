@@ -13,8 +13,8 @@
             android:icon="@drawable/services"
             android:title="@string/menu_services" />
         <item
-            android:id="@+id/nav_login"
-            android:icon="@drawable/login"
-            android:title="@string/menu_login" />
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/menu_logout" />
     </group>
 </menu>
